@@ -1,0 +1,15 @@
+.cursor {
+      width: 9rem;
+      height: 12rem;
+      position: absolute;
+      background-image: url('../assets/CustomCursor.png');
+      background-repeat: no-repeat;
+      background-size: contain; 
+      transform: translateX(-48%) translateY(-5%);
+      pointer-events: none;
+      transition: all 0.2s ease;
+      transition-property: background, transform;
+      transform-origin: 150% 150%;
+      z-index: 999;
+      cursor: none;
+}

@@ -33,7 +33,7 @@ const DartBoard = () => {
                         <path id="_15" data-name="15" d="M326.292,211.842a170.563,170.563,0,0,1-8.347,52.7l-162.2-52.7Z" transform="translate(134.407 -83.458) rotate(27)" fill="#00a000" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
                         <path id="_6-2" data-name="6" d="M350.622,162.336a170.556,170.556,0,0,1-8.347,52.7l-162.2-52.7Z" transform="translate(-26.25 43.832) rotate(-9)" fill="#00a000" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
                         <path id="_4-2" data-name="4" d="M341.207,107.983a170.534,170.534,0,0,1-8.348,52.7l-162.2-52.7Z" transform="translate(-20.028 220.317) rotate(-45)" fill="#00a000" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
-                        <path id="_1" data-name="1" d="M301.642,69.546a170.565,170.565,0,0,1-8.347,52.7l-162.2-52.7Z" transform="translate(87.803 294.599) rotate(-81)" fill="#00a000" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
+                        <path id="_1" data-name="2" d="M301.642,69.546a170.565,170.565,0,0,1-8.347,52.7l-162.2-52.7Z" transform="translate(87.803 294.599) rotate(-81)" fill="#00a000" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
                       </g>
                       <g id="RedOuter" transform="translate(10 9)">
                         <path id="_20-2" data-name="20" d="M234.3,58.8a161.431,161.431,0,0,1-7.9,49.891L72.853,58.8Z" transform="translate(121.318 248.155) rotate(-99)" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
@@ -80,7 +80,7 @@ const DartBoard = () => {
                         <path id="_9-3" data-name="9" d="M175.382,149.841a107.532,107.532,0,0,1-5.264,33.234L67.832,149.841Z" transform="translate(242.59 15.823) rotate(79)" fill="red" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
                         <path id="_6-4" data-name="6" d="M206.145,133.6a107.569,107.569,0,0,1-5.264,33.235L98.595,133.6Z" transform="translate(128.849 -52.267) rotate(43)" fill="red" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
                         <path id="_30" data-name="30" d="M221.487,102.383a107.567,107.567,0,0,1-5.263,33.235L113.937,102.383Z" transform="translate(8.866 -1.278) rotate(7)" fill="red" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
-                        <path id="_12-3" data-name="12" d="M215.55,68.108a107.535,107.535,0,0,1-5.264,33.235L108,68.108Z" transform="matrix(0.875, -0.485, 0.485, 0.875, -14.232, 107.326)" fill="red" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
+                        <path id="_12-3" data-name="39" d="M215.55,68.108a107.535,107.535,0,0,1-5.264,33.235L108,68.108Z" transform="matrix(0.875, -0.485, 0.485, 0.875, -14.232, 107.326)" fill="red" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
                         <path id="_54" data-name="54" d="M190.6,43.869A107.535,107.535,0,0,1,185.336,77.1L83.05,43.869Z" transform="translate(39.727 170.223) rotate(-65)" fill="red" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
                       </g>
                       <g id="GreenInner" transform="translate(74 75)">
@@ -93,7 +93,7 @@ const DartBoard = () => {
                         <path id="_15-4" data-name="15" d="M188.179,122.69a98.427,98.427,0,0,1-4.819,30.422L89.729,122.69Z" transform="translate(77.751 -48.054) rotate(27)" fill="#e7e4c7" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
                         <path id="_6-5" data-name="6" d="M202.223,94.112a98.462,98.462,0,0,1-4.818,30.423L103.774,94.112Z" transform="translate(-15.218 25.28) rotate(-9)" fill="#e7e4c7" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
                         <path id="_4-4" data-name="4" d="M196.788,62.737A98.462,98.462,0,0,1,191.97,93.16L98.338,62.737Z" transform="translate(-11.898 127.174) rotate(-45)" fill="#e7e4c7" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
-                        <path id="_1-3" data-name="1" d="M173.95,43.549a98.433,98.433,0,0,1-4.819,30.423L75.5,43.549Z" transform="translate(47.176 172.757) rotate(-81)" fill="#e7e4c7" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
+                        <path id="_1-3" data-name="12" d="M173.95,43.549a98.433,98.433,0,0,1-4.819,30.423L75.5,43.549Z" transform="translate(47.176 172.757) rotate(-81)" fill="#e7e4c7" stroke="#d0edfd" stroke-width="1.1" fill-rule="evenodd"/>
                       </g>
                       <g id="RedInner" transform="translate(-50 -51)">
                         <g id="_2-2" data-name="2" transform="matrix(0.799, -0.602, 0.602, 0.799, 215.597, 240.671)">
