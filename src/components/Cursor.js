@@ -5,7 +5,7 @@ import '../styles/Cursor.css'
 const Cursor = () => {
       return(
             <div className="cursor">
-
+                  <div></div>
             </div>
       )
 }

@@ -4,24 +4,60 @@
       flex-direction: row-reverse;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      width: 100vw;
       height: 100vh;
-      cursor: none;
+      background-color: #24292e;
 }
 
-.app__dartBoard {
+.app__dartBoardContainer {
       display: flex;
       flex: .6;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      height: calc(100vh - 4rem);
-      padding: 2rem;
+      justify-content: flex-end;
+      height: 100vh;
+      position: relative;
+      background-color: #37414d;
 }
 
-.app__dartBoard > * {
-      width: 90%;
-      height: auto;
+.dartBoardContainer__dartBoard {
+      display: flex;
+      height: 75vh;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.dartBoardContainer__darts {
+      display: flex;
+      flex: 1;
+      height: calc(25vh - 4rem); 
+      width: calc(100% - 8rem);
+      padding: 2rem 4rem;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      border-top-left-radius: 75%;
+      border-top-right-radius: 75%;
+} 
+
+.dartBoardContainer__darts > div {
+      display: flex;
+      flex: .3;
+      height: 100%;
+      background-color: #4d5259;
+}
+
+.dartBoardContainer__darts > div > h1 {
+      width: 100%;
+      height: 100%;
+      color: white;
+      font-family: sans-serif;
+      font-weight: bold;
+      text-align: center;
+      line-height: 2.7;
+      font-size: 4rem;
+      background-color: #2e343b;
 }
 
 .app__controlBoard {
@@ -32,4 +68,123 @@
       justify-content: flex-start;
       height: calc(100vh - 4rem);
       padding: 2rem;
+}
+
+.app__controlBoard > h1 {
+      color: white;
+      font-family: sans-serif;
+      font-size: 4rem;
+      text-align: left;
+      width: 100%;
+}
+
+.controlBoard__score {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: calc(100% - 4rem);
+      height: calc(15vh - 4rem);
+      margin-top: 4vh;
+      padding: 2rem;
+      background-color: #272c31;
+}
+
+.controlBoard__score > h1 {
+      color: white;
+      font-family: sans-serif;
+      font-size: 2.6rem;
+      text-align: left;
+}
+
+.controlBoard__data {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-top: 4vh;
+      width: 100%;
+      height: 45vh;
+      background-color: #272c31;
+}
+
+.controlBoardData__row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: calc(100% - 4rem);
+      height: calc(15vh - 4rem);
+      padding: 2rem;
+}
+
+.controlBoard__buttons {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      height: 15vh;
+      margin-top: 4vh;
+}
+
+.controlBoardButtons__reset {
+      display: flex;
+      flex: .3;
+      justify-content: center;
+      align-items: center;
+      background-color: #d5574f;
+      height: 90%;
+      cursor: pointer;
+      transition: .2s all;
+}
+
+.controlBoardButtons__round {
+      display: flex;
+      flex: .3;
+      justify-content: center;
+      align-items: center;
+      background-color: #578b6b;
+      height: 90%; 
+      cursor: pointer;
+      transition: .2s all;
+}
+
+.controlBoardButtons__round:hover, .controlBoardButtons__reset:hover {
+      transform: scale(.9);
+}
+
+.controlBoardButtons__round:active, .controlBoardButtons__reset:active {
+      transform: scale(1.1);
+}
+
+.controlBoard__buttons > div > h1 {
+      color: white;
+      font-family: sans-serif;
+      font-size: 2rem;
+      text-align: center;
+}
+
+.controlBoardData__row > h1 {
+      color: white;
+      font-family: sans-serif;
+      font-size: 2.6rem;
+      text-align: left;
+}
+
+
+
+
+.cursor {
+      position: absolute;
+}
+
+.cross {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      border: 1px solid red;
+      border-radius: 50%;
+      z-index: 999;
+      transform: translateX(-50%) translateY(-50%);
 }
